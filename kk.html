@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text to image Generater</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+		background-image: url('bg.jpg');  
+		background-size: cover; 
+     }
+        .header {
+            background-color: #B1B1EF;
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .prompt-box {
+            margin-top: 20px;
+            display: flex;
+width: 500px;
+            align-self: center;
+            align-items: center;
+            margin-left: 33%;
+            justify-content: center;
+        }
+        .button-container {
+            margin-top: 20px;
+		
+            display: flex;
+            justify-content: center;
+        }
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+  text-align:center;
+  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color:#555;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:40px;
+  padding-top:30px;
+  height:200vh;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+div:last-of-type {
+  width:1000px;
+  animation: reveal 7s infinite;
+}
+
+div:last-of-type span {
+  margin-left:-500px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+p {
+  font-size:25px;
+  color:#999;
+  margin-top:100px;
+}
+
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+color: white;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  display: block;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  letter-spacing: 2px;
+background-color: #F9F6EE;
+  transition: all .25s;
+}
+
+a:hover{
+  letter-spacing: 15px;
+color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Text to Image Generater</h1>
+    </div>
+    <div class="content">
+        <div>Escape</div> 
+<div> 
+  <span>into amazing experiences</span>
+</div>
+
+
+<p>Where Prompt Meets Reality</p>
+<div class="wrapper">
+  <a href="https://colab.research.google.com/drive/1rg3Mlte-D4IE0ZuUuCps0P1qbioAAUa7?usp=sharing">Click Me!!</a>
+</div>
+        
+</body>
+</html>
